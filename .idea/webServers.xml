@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="62f1db65-637d-426f-9204-a7c0483a0d16" name="jifan@192.168.0.71" url="http://192.168.0.71">
+        <fileTransfer host="192.168.0.71" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="95b2d250-ad02-4ae1-b2b5-cf676b46d1ca" name="acadia" url="http:///">
+        <fileTransfer host="acadia.cs.washington.edu" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4f7b24a5-825b-41c0-891a-43c7e392941e" name="shuksan" url="http://shuksan.fcac.foster.uw.edu">
+        <fileTransfer host="shuksan.fcac.foster.uw.edu" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d13af62d-48f0-4f43-aa4f-a93c87f52425" name="sahale" url="http://sahale.fcac.foster.uw.edu">
+        <fileTransfer host="sahale.fcac.foster.uw.edu" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3546f93f-bf18-42cc-92fe-3ff01bc4e87c" name="jifan@192.168.0.71:22" url="http:///">
+        <fileTransfer host="192.168.0.71" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>group</name>
+        <servers>
+          <name value="acadia" />
+          <name value="shuksan" />
+          <name value="sahale" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>
